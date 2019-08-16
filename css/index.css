@@ -171,7 +171,7 @@ nav {
   margin-left: 0px;
   display: flex;
   justify-content: space-around;
-  margin: 1rem 35rem;
+  margin: 1rem 65rem;
 }
 nav a {
   align-items: center;
@@ -246,8 +246,6 @@ div .btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #22283A;
-  color: white;
   cursor: pointer;
   width: 100px;
   height: 45px;
