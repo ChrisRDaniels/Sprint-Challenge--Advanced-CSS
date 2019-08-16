@@ -134,8 +134,8 @@ html {
 }
 html,
 body {
-  font-family: 'Ubuntu', sans-serif;
   color: #5E6164;
+  font-family: 'Ubuntu', sans-serif;
   background-color: white;
 }
 h1,
@@ -143,8 +143,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Russo One', sans-serif;
   color: #23293B;
+  font-family: 'Russo One', sans-serif;
 }
 h1 {
   font-size: 5rem;
@@ -157,6 +157,8 @@ h3 {
   font-size: 2.8rem;
 }
 p {
+  color: #5E6164;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1.6rem;
   line-height: 1.4;
 }
@@ -238,5 +240,17 @@ footer {
 .home .walk .walk-img img {
   width: 100%;
   height: auto;
+  border-radius: 10px;
+}
+div .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22283A;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  height: 45px;
+  font-size: 2rem;
   border-radius: 10px;
 }
