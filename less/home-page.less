@@ -78,8 +78,10 @@ div .btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: @btn-bg-color;
-  color: white;
+  
+  .btn-style(@btn-bg-color, @mainfont){
+
+  }
   
   cursor: pointer;
   width: 100px;
