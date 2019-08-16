@@ -246,6 +246,8 @@ div .btn {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #F6F7F8;
+  background-color: #22283A;
   cursor: pointer;
   width: 100px;
   height: 45px;

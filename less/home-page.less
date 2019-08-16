@@ -78,14 +78,16 @@ div .btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  .btn-style(@btn-bg-color, @mainfont){
+  color: @porcelain;
+  background-color: @btn-bg-color;
 
-  }
-  
   cursor: pointer;
   width: 100px;
   height: 45px;
   font-size: 2rem;
   border-radius: 10px;
+
+  .btn-style(@btn-bg-color, @main-font-color){
+    
+  }
 }
